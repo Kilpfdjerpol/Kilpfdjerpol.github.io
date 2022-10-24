@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Собака Жучка</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript"src="script/js-script.js"></script>
+</head>
+<body>
+	<div class="main-headers">
+        <h1>Жучка</h1>
+        <h2>Сайт вдохновлён прекрасными  <font color="red">собачками</font></h2>
+    </div>
+    <div class="content">
+    <hr/>
+
+    <div>
+    	<nav>
+	    <table class="menu">
+            <tr>
+			    <td><a href="index.html"><button>Главная</button></a></td>
+			    <td><a href="breed.html"><button>Порода собаки</button></a></td>
+			    <td><a href="about-me.html"><button>О создателе</button></a></td>
+		    </tr>
+	    </table>
+	    </nav>
+    </div>
+
+        <h3 class="t3" onClick="changeDisplay(this)">Порода Леонбергер <font color="red">собака</font></h3>
+        <button>Поменять фон</button>
+        <div style="display: none;" id="1">
+            <ul>
+                <li><p><b>Название породы:</b> Леонбергер.</li>
+                <li><p><b>Страна происхождения:</b> Германия.</li>
+                <li><p><b>Вес:</b> 45-60 кг.</li>
+                <li><p><b>Средняя продолжительность жизни:</b> 9-12 лет.</li>
+                <li><p><b>Средняя цена:</b> 40-150 тысяч рублей.</li>	
+            </ul>	
+
+        </div>
+
+        <div>
+                <h3>Внешний вид</h3>
+                <p><b>Леонбергер</b>-крупная, мускулистая и элегантная собака со сбалансированным типом телосложения, средним темпераментом и драматическим присутствием. Голова украшена поразительной черной маской и проецирует отчетливое выражение интеллекта, гордости и доброты породы.</p>
+                <img src="img/собака.webp" alt="">
+                <p class="t1" onclick="superClick(this)">Густая шерсть</p>
+	            <p class="t2">Прикольные ушки</p>	
+        </div>
+
+        <div>
+                <h3>Характер породы</h3>
+                <table class="test-table" border="1">
+                	<thead>
+                		<tr>
+                			<td>Характеристика</td>
+                			<td>Значения</td>
+                		</tr>
+                	</thead>
+                	<tbody>
+                		<tr>
+                			<td>Название породы</td>
+                			<td>Леонбергер</td>
+                		</tr>
+                		<tr>
+                			<td>Страна происхождения</td>
+                			<td>Германия</td>
+                		</tr>
+                		<tr>
+                			<td>Вес</td>
+                			<td>45-60 кг</td>
+                		</tr>
+                		<tr>
+                			<td>Средняя продолжительность жизни</td>
+                			<td>9-12 лет</td>
+                		</tr>
+                		<tr>
+                			<td>Средняя цена</td>
+                			<td>40-150 тысяч рублей</td>
+                		</tr>
+                	</tbody>
+                </table>	
+        </div>
+    </div>
+    <footer>Сайт создан Алиной в 2022 году.</footer>
+</body>
+</html>
